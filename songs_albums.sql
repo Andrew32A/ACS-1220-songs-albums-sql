@@ -76,6 +76,7 @@ WHERE year_published BETWEEN 1970 AND 1980;
 SELECT *
 FROM Albums
 JOIN Songs
+ON Albums.id = Songs.album_id
 WHERE year_published BETWEEN 1970 AND 1980;
  
 /*
